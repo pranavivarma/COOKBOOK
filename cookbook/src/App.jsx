@@ -99,12 +99,14 @@ const Register = () => (
       <input type="text" placeholder="Full Name" required />
       <input type="email" placeholder="Email" required />
       <input type="password" placeholder="Password" required />
+      <input type="text" placeholder="Username" required /> {/* New input field for Username */}
+      <input type="tel" placeholder="Phone Number" required /> {/* New input field for Phone Number */}
+      <input type="text" placeholder="Address" required /> {/* New input field for Address */}
       <button type="submit">Sign Up</button>
     </form>
     <p>Already have an account? <Link to="/login">Login</Link></p>
   </div>
 );
-
 const Footer = () => (
   <footer>
     <p>&copy; 2025 Cookbook. All rights reserved.</p>
